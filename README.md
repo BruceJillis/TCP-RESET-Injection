@@ -10,6 +10,7 @@ $ indicates command to be executed
 start the server
 
 $ python server.py
+
     TCP Server binding to port 5000
 
 start the client
