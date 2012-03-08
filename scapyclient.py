@@ -22,6 +22,6 @@ print TCP_SYNACK[TCP].flags
 TCP_ACK=TCP(sport=sport, dport=dport, flags="A", seq=TCP_SYNACK.ack, ack=TCP_SYNACK.seq + 1)
 send(ip/TCP_ACK)
 
-# receive first pong
+# receive first pong don't finish nicely we know enough
 p = s.recv(512)
 print 'recv:', p.show()
