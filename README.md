@@ -35,6 +35,7 @@ wait until the server and the client exit with a message like:
 done!
 
 More info on TCP/RST injection:
+
 * http://kerneltrap.org/node/3072
 * http://www.blackhatacademy.org/security101/TCP-RST_Injection
 
